@@ -1,4 +1,5 @@
 class Calculadora:
+
     def sumar(self, a, b):
         return a + b
 
@@ -10,5 +11,5 @@ class Calculadora:
 
     def dividir(self, a, b):
         if b == 0:
-            raise ValueError("No se puede dividir entre cero")
+            return "Error: división por cero"
         return a / b
